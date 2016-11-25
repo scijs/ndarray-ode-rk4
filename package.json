@@ -1,0 +1,45 @@
+{
+  "name": "ndarray-ode-rk4",
+  "version": "0.0.1",
+  "description": "Runge-Kutta integration for systems of equations using ndarrays.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha test/**.js",
+    "lint": "./node_modules/.bin/semistandard index.js | ./node_modules/.bin/snazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tab58/ndarray-ode-rk4.git"
+  },
+  "keywords": [
+    "rk4",
+    "runge-kutta",
+    "differential",
+    "equations"
+  ],
+  "author": "Tim Bright <capoeirista.muralha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tab58/ndarray-ode-rk4/issues"
+  },
+  "homepage": "https://github.com/tab58/ndarray-ode-rk4#readme",
+  "semistandard": {
+    "global": [
+      "describe",
+      "it"
+    ]
+  },
+  "dependencies": {
+    "ndarray": "^1.0.18",
+    "ndarray-ops": "^1.2.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "semistandard": "^9.1.0",
+    "snazzy": "^5.0.0"
+  }
+}
